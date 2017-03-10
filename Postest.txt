@@ -1,0 +1,17 @@
+fungsi yang digunakan dalam prolog
+	
+	f(a,b,...)			=> berfungsi untuk memanggil variable
+	.. [ f, A, B, ...]		=> berfungsi untuk memanggil variable	
+	f				=> berfungsi untuk memanggil variable tanpa adanya parameter
+	f(Para1, Para2, ....) :- ... .	=> berfungsi untuk mendefinisikan suatu predikat
+	current_predicate		=> berfungsi untuk memeriksa waktu pmanggil informasi
+
+
+Keyword :
+1. Open			: ini digunakan untuk memperluas visibilitas lingkup kelas. Hal ini untuk digunakan hanya setelah menerapkan kata kunci.
+2. constants		: ini digunakan untuk menandai bagian dari kode yang mendefinisikan beberapa nilai yang umum digunakan dalam kode program.
+3. domains		: ini digunakan untuk menandai bagian menyatakan domain yang akan digunakan dalam kode.
+4. class facts		: ini menunjuk bagian, yang menyatakan fakta-fakta yang akan digunakan nanti dalam kode program.
+5. class predicates	: Visual Prolog memiliki kemampuan membagi kode program dalam berkas terpisah menggunakan IDE (Integrated Development Environment) dan itu adalah mungkin untuk menulis potongan yang rapi dari kode ke file terpisah menggunakan IDE itu.
+6. Scope Access Issues	: Visual Prolog membagi kode program keseluruhan menjadi bagian-bagian yang terpisah, masing-masing bagian mendefinisikan satu kelas
+7. Object Orientation	  

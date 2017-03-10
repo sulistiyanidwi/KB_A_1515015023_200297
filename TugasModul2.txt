@@ -1,0 +1,31 @@
+Nama	: Dwi Sulistiyani
+NIM	: 1515015023
+Kelas	: A 2015
+
+1. Ubah bahasa Prolog berikut menjadi bahasa natural:
+	a. orang(dian). =>> Dian adalah Orang
+	b. mobil(atoz) =>> atoz adalah mobil
+	c. suka(dian, atoz)). =>> dian suka atoz.
+	d. dijual(atoz). =>> atoz dijual.
+	e. dapat_membeli(X,Y):- 
+		orang(X), 
+		mobil(Y),
+		suka(X,Y), 
+		dijual(Y). =>> X dapat_membeli Y jika maka X orang dan Y mobil dan X suka Y dan Y dijual. 
+	f. suka(_,Apa). =>> Setiap orang menyukai Apa
+
+2. Ubah bahasa natural berikut menjadi bahasa Prolog:
+	a. Ricky mempunyai hobi bermain catur. =>> mempunyai(Ricky,catur).
+	b. Embang orangnya pemalas. =>> orangnya(Embang,pemalas).
+	c. Yusida seorang vegetarian. =>> seorang(Yudisa,Vegetaran).
+	d. Kusdiar pandai bermain gitar. =>> pandai(kusdir,gitar).
+	e. Mobil yang berwarna merah itu milik Sadek, bermerk BMW. =>> milik(Mobil,Sadek),warna(mobil,merah),BMW(bermerek).
+	f. Awan seorang pemain piano, berasal dari Pontianak bersuku Jawa. =>> pemain(awan,piano), asal(awan,pontianak),suku(awan,jawa).	
+	g. Seseorang dikatakan baik jika mempunyai sifat penyayang dan dermawan. =>> baik(orang):- 
+											penyayang(orang),
+											dermawan(orang).
+	h. Seseorang dikatakan pintar jika salah satu dari Matematika atau IPA atau IPS mendapat nilai tinggi. =>> pntar(orang):-
+															niali(matematika,tinggi);
+															nilai(IPA,tinggi);
+															nilai(IPS,titnggi).
+	i. Setiap orang pasti mati.=>> pasti(_,mati).
