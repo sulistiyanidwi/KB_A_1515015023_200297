@@ -28,4 +28,4 @@ Kelas	: A 2015
 															niali(matematika,tinggi);
 															nilai(IPA,tinggi);
 															nilai(IPS,titnggi).
-	i. Setiap orang pasti mati.=>> pasti(_,mati).
+	i. Setiap orang pasti mati.=>> mati(_). | pasti(_,orang).

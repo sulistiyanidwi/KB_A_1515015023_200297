@@ -30,7 +30,7 @@ CLAUSES
      cucu(X,Y):-anak(X,Z),anak(Z,Y).
      adik(X,Y):-usia(X,10),usia(Y,13).
      
- Goal
+    Goal
     ibu(mary,Siapa);
     kakek(peter,Siapa);
     cucu(jhone,Siapa);
